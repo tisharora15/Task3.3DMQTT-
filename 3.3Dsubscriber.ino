@@ -43,7 +43,7 @@ void handleIncomingMessages() {
 
     if (message.indexOf("Tisha waved") != -1) {
       blinkWave();
-    } else if (message.indexOf("pat waved ") != -1) {
+    } else if (message.indexOf("Tisha Patted ") != -1) {
       blinkPat();
     }
 
